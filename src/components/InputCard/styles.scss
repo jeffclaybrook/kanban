@@ -1,0 +1,58 @@
+.input-card {
+  background: #ebecf0;
+  padding: 1rem;
+  border-radius: 5px;
+
+  .input-card-container {
+    inline-size: 100%;
+    margin: auto;
+
+    .input-text {
+      inline-size: 100%;
+      block-size: 4rem;
+      background: #ffffff;
+      padding: .5rem;
+      font-size: 15px;
+      border: 0;
+      border-bottom: 1px solid #cccccc;
+      resize: none;
+    }
+  }
+
+  .confirm {
+    inline-size: 268px;
+    margin: 0.2rem auto;
+    display: flex;
+    align-items: center;
+
+    .button-confirm {
+      block-size: 2rem;
+      inline-size: 6rem;
+      background: #525252;
+      cursor: pointer;
+      border: 0;
+      border-radius: 7px;
+      color: #ffffff;
+      font-weight: bold;
+      margin-inline-end: .5rem;
+
+      &:hover {
+        background: #e22bba;
+      }
+    }
+
+    .button-cancel {
+      background: none;
+      border: none;
+      cursor: pointer;
+
+      svg {
+        transition: color 0.3s;
+
+        &:hover {
+          color: #e22bba
+        }
+      }
+    }
+  }
+}

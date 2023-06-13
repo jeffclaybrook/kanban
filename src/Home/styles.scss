@@ -1,0 +1,8 @@
+.wrapper {
+  inline-size: 100%;
+  margin-inline: auto;
+  padding-inline: .5rem;
+  display: flex;
+  min-height: calc(100vh - 5rem);
+  overflow-y: auto;
+}

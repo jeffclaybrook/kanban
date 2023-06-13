@@ -1,0 +1,30 @@
+.input-container {
+  inline-size: 100%;
+  max-inline-size: 300px;
+  margin-inline-start: .5rem;
+
+  .input-content {
+    inline-size: 100%;
+    max-inline-size: 300px;
+    border-radius: .5px;
+    background: #eb3cf9;
+    padding-block: .5rem;
+    opacity: .8;
+
+    button {
+      cursor: pointer;
+      background: none;
+      inline-size: 100%;
+      padding: .5rem;
+      border: 0;
+      margin: auto;
+      text-align: start;
+      font-size: 14px;
+    }
+
+    &:hover {
+      background: #dddddd;
+    }
+
+  }
+}

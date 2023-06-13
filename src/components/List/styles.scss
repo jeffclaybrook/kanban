@@ -1,0 +1,21 @@
+.list-cards {
+  inline-size: 300px;
+  background: #ebecf0;
+  margin-inline-end: .5rem;
+  border-radius: 5px;
+
+  .title-list {
+    padding: 1rem 1rem 0;
+  }
+
+  .container .cards {
+    overflow-x: auto;
+    max-block-size: 55vh;
+    padding-inline: 1rem
+  }
+
+  .card-container {
+    overflow-y: hidden;
+    margin-block: .5rem 0;
+  }
+}

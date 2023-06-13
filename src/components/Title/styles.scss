@@ -1,0 +1,56 @@
+.input-title {
+  inline-size: 100%;
+  block-size: 1.7rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+
+  &:focus {
+    background: #dddddd;
+  }
+}
+
+.editable-title-container {
+  display: flex;
+  position: relative;
+
+  .editable-title {
+    block-size: 1.7rem;
+    flex-grow: 1;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .list-button {
+    block-size: 1.5rem;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #dddddd;
+    }
+  }
+
+  .menu-card {
+    position: absolute;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    z-index: 999;
+    list-style-type: none;
+    cursor: default;
+
+    li {
+      color: #333333;
+      font-size: .875rem;
+      border-bottom: 1px solid #dddddd;
+      padding: 0.5rem 0.5rem 0.3rem;
+
+      &:hover {
+        background-color: #dddddd;
+      }
+    }
+  }
+}
